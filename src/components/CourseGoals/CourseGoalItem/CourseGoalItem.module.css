@@ -1,0 +1,40 @@
+.goal-list{
+        margin: 5px auto;
+    list-style: none;
+    background-color: #8A1155;
+    color: whitesmoke;
+     width:60%;
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    justify-content: space-between;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 10px;
+}
+.button{
+    border: 1px solid #000000;
+    font-weight: 400;
+    padding: 3px 6px;
+    background-color: rgb(225, 56, 56);
+    color: whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    border: 2px solid #c51b7b;
+}
+.mark-it{
+    text-decoration: line-through;
+    color: black;
+    
+}

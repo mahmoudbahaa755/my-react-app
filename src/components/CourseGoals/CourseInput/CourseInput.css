@@ -1,0 +1,35 @@
+.course-input{
+    width: 55%;
+    box-shadow: 0px 0px 9px 2px grey;
+    padding: 10px;
+    margin: 15px auto;
+    height: 170px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    flex-direction: column;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.input-goal{
+    max-width: 80%;
+    width: 90%;
+}
+.button{
+   background-color: #8B005D;
+    color: whitesmoke;
+    width: 150px;
+    height: 32px;
+    border: 0px;
+    display: block;
+    border-radius: 5px;
+    margin: 19px 0px;
+}
+h2{
+    color: black;
+}
+.button-display{
+       display: flex;
+    justify-content: space-evenly;
+}
